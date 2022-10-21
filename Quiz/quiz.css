@@ -62,6 +62,7 @@ body{
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
+    width: auto;
     pointer-events: none;
     transition: all 0.3s ease;
     text-align: right;
