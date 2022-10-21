@@ -14,8 +14,17 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+html {
+    height: -webkit-fill-available;
+}
 body{
     background: #007bff;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+    height: -webkit-fill-available;
 }
 
 ::selection{
