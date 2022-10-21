@@ -88,14 +88,14 @@ body{
 .info_box .info-list{
     padding: 15px 30px;
     text-align: right;
-    width: auto;
+    width: 100vh;
 }
 
 .info_box .info-list .info{
     margin: 5px 0;
     font-size: 17px;
     text-align: right;
-    width: auto;
+    width: 100vh;
 }
 
 .info_box .info-list .info span{
