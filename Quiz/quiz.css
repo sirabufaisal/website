@@ -70,6 +70,13 @@ body{
     pointer-events: none;
     transition: all 0.3s ease;
     text-align: right;
+        background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+
+    width: auto;
 }
 /*
 .info_box .info-title{
