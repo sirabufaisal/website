@@ -67,7 +67,6 @@ body{
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
-    width: auto;
     pointer-events: none;
     transition: all 0.3s ease;
     text-align: right;
@@ -89,12 +88,14 @@ body{
 .info_box .info-list{
     padding: 15px 30px;
     text-align: right;
+    width: auto;
 }
 
 .info_box .info-list .info{
     margin: 5px 0;
     font-size: 17px;
     text-align: right;
+    width: auto;
 }
 
 .info_box .info-list .info span{
@@ -110,6 +111,7 @@ body{
     padding: 0 30px;
     border-top: 1px solid lightgrey;
     text-align: center;
+    width: auto;
 }
 
 .info_box .buttons button{
