@@ -22,10 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    height: 100vh;
-        position: absolute;
 
-    width: 100%;
 }
 
 ::selection{
@@ -97,14 +94,15 @@ body{
 .info_box .info-list{
     padding: 15px 30px;
     text-align: right;
-    width: 100vh;
+ position: relative;
+ width: 450px;
 }
 
 .info_box .info-list .info{
     margin: 5px 0;
     font-size: 17px;
     text-align: right;
-    width: 100vh;
+
 }
 
 .info_box .info-list .info span{
