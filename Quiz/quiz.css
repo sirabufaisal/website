@@ -137,7 +137,7 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    width: 367px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -171,14 +171,14 @@ body{
     border: 1px solid #b8daff;
     height: 45px;
     padding: 0 8px;
-    border-radius: 5px;
+    border-radius: 32px;
     display: flex;
     align-items: center;
     text-align: right;
     justify-content: space-between;
-    width: 145px;
+    width: 129px;
     position:absolute; 
-    left:380px; 
+    left:215px; 
     top:12px;
 }
 
@@ -354,7 +354,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+
     align-items: center;
     flex-direction: column;
     justify-content: center;
