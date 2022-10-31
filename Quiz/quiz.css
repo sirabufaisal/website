@@ -304,8 +304,7 @@ footer{
 footer .total_que span{
     display: flex;
     user-select: none;
-    
-    left:464px; 
+
 }
 
 footer .total_que span p{
