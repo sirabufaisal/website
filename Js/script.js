@@ -1,5 +1,5 @@
 // BDAY
-var countDownDate = new Date("Dec 10, 2022 00:00:00").getTime();
+var countDownDate = new Date("Dec 10, 2023 00:00:00").getTime();
 
 var x = setInterval(function() {
 
