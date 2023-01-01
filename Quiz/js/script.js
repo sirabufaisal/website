@@ -150,20 +150,28 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text, .video");
-    if (userScore > 3){ // if user scored more than 3
+    if (userScore > 5){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>🎉 يا اسطورة جبت<p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
+        let scoreTag = '<video autoplay="on" loop="on" src=./js/media/sss3.mp4></video>\n<span>🎉 يا اسطورة جبت<p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
-    else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>😑 شد حيلك اكثر<p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
+   else if(userScore > 4){ // if user scored more than 1
+        let scoreTag = '<video autoplay="on" loop="on" src=./js/media/sss2.mp4></video>\n<span>🙄 شد حيلك اكثر<p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
+    else if(userScore > 2){ // if user scored more than 1
+        let scoreTag = '<video autoplay="on" loop="on" src=./js/media/sss1.mp4></video>\n<span>🤔 يجي منك <p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    }
+
     else{ // if user scored less than 1
         let scoreTag = '<video autoplay="on" loop="on" src=./js/media/sss.mp4></video>\n<span>🤬 قم انقلع يا فاشل<p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
         scoreText.innerHTML = scoreTag;
 }
-
+/**     if(userScore > 1){ // if user scored more than 1
+        let scoreTag = '<span>😑 شد حيلك اكثر<p>'+ questions.length +'</p> من <p>'+ userScore +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+    } */
 
 
 }
