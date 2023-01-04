@@ -1,0 +1,62 @@
+html{
+background: linear-gradient(132deg, #0b2f4d, #0a2033, #008bff);
+  background-size: 500% 500%;
+  animation: Gradient 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 100%;
+ font-family: Cairo;
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container{
+
+background:#6387a6;
+    border-radius: 12px 12px 12px 12px;
+width:190px;/*
+    margin: 304px;
+    left: 550px;
+    position: absolute;
+    height: 236px;*/
+
+
+}
+h3{
+
+display: flex;
+
+justify-content: center;
+
+}
+.form-group{
+display : flex;
+justify-content: center;
+
+}
+.buttonss{
+display : flex;
+justify-content: center;
+
+}
+.btn{
+color:#ffffff;
+background: #497295;
+border-radius: 12px 12px 12px 12px;
+}
+textarea {
+  background: #c5c5c5;
+
+ font-family: Cairo;
+text-align:right;
+    }
