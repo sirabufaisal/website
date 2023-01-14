@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
         $email = $_POST['email'];
         $phonecode = $_POST['phonecode'];
         $phone = $_POST['phone'];
-        $host = "51.223.93.162";
+        $host = "51.223.93.162:8080";
         $dbUsername = "root";
         $dbPassword = "";
         $dbName = "2024testhtml";
