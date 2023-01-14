@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>SignUP</title>
+</head>
+<body>
+    <form class="register" action="insert.php" method="POST" >
+        <h4>UserName : </h4>
+        <input type="text" name="username" required>
+        <h4>PassWord : </h4>
+        <input type="password" name="password" required>
+        <h4>Gender : </h4>
+        <input type="radio" name="gender" value="m" required> Male
+        <input type="radio" name="gender" value="f" required> Female
+        <h4>Email : </h4>
+        <input type="email" name="email" required>
+        <h4>Phone no : </h4>
+        <select name="phonecode" required>
+            <option selected hidden>Select</option>
+            <option value="051">051</option>
+            <option value="052">052</option>
+            <option value="053">053</option>
+            <option value="054">054</option>
+            <option value="055">055</option>
+            <option value="056">056</option>
+            <option value="057">057</option>
+            <option value="058">058</option>
+            <option value="059">059</option>
+        </select>
+        <input type="phone" name="phone" required>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
