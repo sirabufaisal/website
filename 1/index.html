@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>?</title>
+</head>
+<body>
+    <div class="up">
+        <img class="logo" src="img/logo.png" alt="">    
+      
+    </div>
+<hr>
+    <div class="mid">
+        <div class="box">
+            <h2 class="h2-text">
+                أحجز موعد مع عمك محمد
+            </h2>
+            <hr class="hr1">
+            <form id="messageForm">
+                <label class="ap-name">من انت ؟</label><br>
+                <input type="text" name="اسمه" class="ap-name-input" minlength="0" maxlength="15" placeholder="أكتب اسمك ولايكثر" required><br>
+                <label class="ap-want">وش تبي ؟</label><br>
+                <input type="text" name="يبي مني" class="i-f1" minlength="0" maxlength="50" placeholder="لاتمون وتكثر" required><br>
+                <label class="ap-loc">وين نتقابل ؟</label><br>
+                <input type="ap-loc" name="المكان" class="i-f1" minlength="0" maxlength="50" placeholder="أختصر علينا" required><br>
+                <label class="ap-date">حدد اليوم ></label>
+                <input type="date" name="التاريخ" placeholder="حدد اليوم" required><br>
+               <label class="ap-type">أكشخ ؟</label><br>
+               <input type="radio" id="radio" name="أكشخ" value="لا" required> <label class="ap-type-no">لا</label>
+                <input type="radio" id="radio" name="أكشخ" value="ايه" required><label class="ap-type-yes">اية</label><br>
+                <input class="submit-btn" type="submit" value="أرسال">
+            </form>
+            <br>
+            <p id="status"></p>
+            </div>
+
+    </div>
+    <div class="down">
+   
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
