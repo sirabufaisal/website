@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="box">
+        <div class="boxform">
+            <ul class="nav-number">
+                <li class="active" data-cont="r1">1</li>
+                <li data-cont="r2">2</li>
+                <li data-cont="r3">3</li>
+                </ul>
+                <hr>
+        <form id="messageForm">
+            <section id="r1" class="section section-one active">
+                <span class="material-symbols-outlined">person</span> <label>أسمك :</label><input type="text" name="الاسم" id="name" minlength="3" maxlength="10" required ><br>
+                <span class="material-symbols-outlined">boy</span><input type="radio" name="الجنس" id="gender" value="ذكر" required>
+                <span class="material-symbols-outlined">woman</span><input type="radio" name="الجنس" id="gender" value="انثى" required>
+      </section>
+      <section id="r2" class="section section-two">
+        <img class="twittericon" src="img/WhatsApp.png" alt=""><br>
+        <label id="GGroup" for="سبب استخدامك  له">سبب استخدامك  له</label>
+            <select name="الاستخدام - واتس" id="Group">
+                <option value="ChooseH" hidden>أختر</option>
+                <option name="الاستخدام - واتس" value="لمجموعات الجامعة">لمجموعات الجامعة</option>
+                <option name="الاستخدام - واتس" value="لمجموعات العائلة والاقارب">لمجموعات العائلة والاقارب</option>
+                <option name="الاستخدام - واتس" value="لمجموعات الاصدقاء والعمل">لمجموعات الاصدقاء والعمل</option>
+                <option name="الاستخدام - واتس" value="لمناديب التوصيل">لمناديب التوصيل</option>
+                <option name="الاستخدام - واتس" value="لأستخدمة اطلاقًا">لأستخدمة اطلاقًا</option>
+            </select><br>
+            <label id="GGroup" for="مدة استخدامك له">مدة استخدامك له</label>
+            <select name="المدة - واتس" id="Group">
+                <option value="ChooseH" hidden>أختر</option>
+                <option name="المدة - واتس" value="نصف ساعة الى ساعة">نصف ساعة الى ساعة</option>
+                <option name="المدة - واتس" value="ساعة الى ثلاث ساعات">ساعة الى ثلاث ساعات</option>
+                <option name="المدة - واتس" value="خمس ساعات الى عشر ساعات">خمس ساعات الى عشر ساعات</option>
+            </select>
+            <hr>
+            <img class="twittericon" src="img/twitter.png" alt=""><br>
+            <label id="GGroup" for="سبب استخدامك  له">سبب استخدامك  له</label>
+                <select name="الاستخدام - تويتر" id="Group" required>
+                    <option value="ChooseH" hidden>أختر</option>
+                    <option name="الاستخدام - تويتر" value="للأخبار">للأخبار</option>
+                    <option name="الاستخدام - تويتر" value="لمجموعات الاصدقاء والعمل">لمجموعات الاصدقاء والعمل</option>
+                    <option name="الاستخدام - تويتر" value="للتواصل مع الشركات">للتواصل مع الشركات</option>
+                    <option name="الاستخدام - تويتر" value="لتوثيق احداث يومك">لتوثيق احداث يومك</option>
+                    <option name="الاستخدام - تويتر" value="لأستخدمة اطلاقًا">لأستخدمة اطلاقًا</option>
+                </select><br>
+                <label id="GGroup" for="مدة استخدامك له">مدة استخدامك له</label>
+                <select name="المدة - تويتر" id="Group" required>
+                    <option value="ChooseH" hidden>أختر</option>
+                    <option name="المدة - تويتر" value="نصف ساعة الى ساعة">نصف ساعة الى ساعة</option>
+                    <option name="المدة - تويتر" value="ساعة الى ثلاث ساعات">ساعة الى ثلاث ساعات</option>
+                    <option name="المدة - تويتر" value="خمس ساعات الى عشر ساعات">خمس ساعات الى عشر ساعات</option>
+                </select>
+                <hr>
+        </section>
+      <section id="r3" class="section section-three">
+        <img class="twittericon" src="img/insta.png" alt=""><br>
+                <label id="GGroup" for="سبب استخدامك  له">سبب استخدامك  له</label>
+                    <select name="الاستخدام - انستقرام" id="Group" required>
+                        <option value="ChooseH" hidden>أختر</option>
+                        <option name="الاستخدام - انستقرام" value="للأخبار">للأخبار</option>
+                        <option name="الاستخدام - انستقرام" value="لتصوير احداث يومك">لتصوير احداث يومك</option>
+                        <option name="الاستخدام - انستقرام" value="لمجموعات الاصدقاء والعمل">لمجموعات الاصدقاء والعمل</option>
+                        <option name="الاستخدام - انستقرام" value="لتصفح اخبار المشاهير">لتصفح اخبار المشاهير</option>
+                        <option name="الاستخدام - انستقرام" value="لأستخدمة اطلاقًا">لأستخدمة اطلاقًا</option>
+                    </select><br>
+                    <label id="GGroup" for="مدة استخدامك له">مدة استخدامك له</label>
+                    <select name="المدة - انستقرام" id="Group" required>
+                        <option value="ChooseH" hidden>أختر</option>
+                        <option name="المدة - انستقرام" value="نصف ساعة الى ساعة">نصف ساعة الى ساعة</option>
+                        <option name="المدة - انستقرام" value="ساعة الى ثلاث ساعات">ساعة الى ثلاث ساعات</option>
+                        <option name="المدة - انستقرام" value="خمس ساعات الى عشر ساعات">خمس ساعات الى عشر ساعات</option>
+                    </select><br>
+                    <hr>
+                    <img class="twittericon" src="img/snap.png" alt=""><br>
+                    <label id="GGroup" for="سبب استخدامك  له">سبب استخدامك  له</label>
+                        <select name="الاستخدام - سناب" id="Group" required>
+                            <option value="ChooseH" hidden>أختر</option>
+                            <option name="الاستخدام - سناب" value="لتصوير احداث يومك">لتصوير احداث يومك</option>
+                            <option name="الاستخدام - سناب" value="لمجموعات العائلة والاقارب">لمجموعات العائلة والاقارب</option>
+                            <option name="الاستخدام - سناب" value="لمجموعات الاصدقاء والعمل">لمجموعات الاصدقاء والعمل</option>
+                            <option name="الاستخدام - سناب" value="لتصفح اخبار المشاهير">لتصفح اخبار المشاهير</option>
+                            <option name="الاستخدام - سناب" value="لأستخدمة اطلاقًا">لأستخدمة اطلاقًا</option>
+                        </select><br>
+                        <label id="GGroup" for="مدة استخدامك له">مدة استخدامك له</label>
+                        <select name="المدة - سناب" id="Group" required>
+                            <option value="ChooseH" hidden>أختر</option>
+                            <option name="المدة - سناب" value="نصف ساعة الى ساعة">نصف ساعة الى ساعة</option>
+                            <option name="المدة - سناب" value="ساعة الى ثلاث ساعات">ساعة الى ثلاث ساعات</option>
+                            <option name="المدة - سناب" value="خمس ساعات الى عشر ساعات">خمس ساعات الى عشر ساعات</option>
+                        </select>
+                        <br>
+                        <p id="status"></p>
+        <button type="submit" class="sumbit" id="sumbit">أرسال الاستبيان</button>
+        </section>
+
+        </form>
+
+      </div>
+      <button class="previous disable" id="previous">السابق</button>
+      <button class="next" id="next">التالي</button>
+    <script src="js/index.js"></script>
+</body>
+</html>
