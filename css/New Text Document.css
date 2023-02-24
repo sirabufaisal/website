@@ -10,7 +10,7 @@
     height: 100%;
 }
 .about-left{
-background: linear-gradient(132deg, #0b2f4d, #0a2033, #008bff);
+background: linear-gradient(132deg, #405363, #1e3f5c, #008bff);
   background-size: 400% 400%;
 display: flex;
 flex-direction: column;
@@ -58,7 +58,7 @@ align-items: center;
     width: 200px;
     height: 200px;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 20%;
     transition: all 0.5s ease-in-out;
 }
 .shadow{
@@ -93,8 +93,8 @@ align-items: center;
 }
 .icons li{
     list-style-type: none;
-    background: #141a1f;
-    color: #fff;
+background: #ffffff;
+    color: #000;
     width: 40px;
     height: 40px;
     margin: 0 0.5rem;
