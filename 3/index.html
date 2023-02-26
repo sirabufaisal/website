@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="task-input">
+            <img src="bars-icon.svg">
+            <input type="text" placeholder="أكتب المهام">
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">
+                    الكل
+                </span>
+                <span id="pending">متبقي</span>
+                <span id="completed">أكتمل</span>
+            </div>
+            <button class="clear-btn">مسح الكل</button>
+        </div>
+        <ul class="task-box"></ul>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
